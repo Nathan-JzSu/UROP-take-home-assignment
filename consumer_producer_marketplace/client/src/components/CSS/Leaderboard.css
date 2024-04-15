@@ -1,0 +1,24 @@
+/* CSS for the Leaderboard component */
+
+.score-display {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 100%;
+  height: 400px;
+}
+
+.score-display::-webkit-scrollbar {
+  display: none;
+}
+
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 10px; 
+  margin-bottom: 10px; 
+}

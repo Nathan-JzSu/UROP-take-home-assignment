@@ -1,0 +1,31 @@
+factors:
+    - name: playerCount
+      desc: playerCount determines the number of Players are in a Game.
+      values:
+        - value: 1
+        - value: 2
+        - value: 3
+        - value: 5
+        - value: 8
+        - value: 13
+    - name: producerPercentage
+      desc: The percentage of players that will be producers. The rest will be consumers.
+      values:
+        - value: 0.1
+        - value: 0.2
+        - value: 0.3
+        - value: 0.5
+        - value: 0.8
+treatments:
+    - name: Solo
+      desc: Single-player Game
+      factors:
+        playerCount: 1
+    - name: Three players
+      factors:
+        playerCount: 3
+    - name: Two Players
+      desc: Two-player Game
+      factors:
+        playerCount: 2
+        producerPercentage: 0.5

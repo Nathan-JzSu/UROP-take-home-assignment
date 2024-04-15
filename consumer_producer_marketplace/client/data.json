@@ -1,0 +1,17 @@
+[
+    {
+        "icon": "https://res.cloudinary.com/dgccztjql/image/upload/v1704638438/SimPPL/Gum_Protection_onbo0t.png",
+        "description": "Advanced Cavity Protection for Lasting Oral Heatlh",
+        "multiplier": 3
+    },
+    {
+        "icon": "https://res.cloudinary.com/dgccztjql/image/upload/v1704638434/SimPPL/Fresh_Breath_he5jws.png",
+        "description": "Fresh Breath Assurance with Enhanced Whitening",
+        "multiplier": 4
+    },
+    {
+        "icon": "https://res.cloudinary.com/dgccztjql/image/upload/v1704638437/SimPPL/Healthy_Gum_domd4m.png",
+        "description": "Gentle Care for Sensitivity and Healthy Gums",
+        "multiplier": 5
+    }
+]
